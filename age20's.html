@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!--banner-->
+    <header>
+        <img src="img/banner.jpg" alt="" style="width:100%; height: 200px;">
+    </header>
+    <!--menu-->
+    <nav class="navbar navbar-expand-lg navbar-light " style="background-color:#f4b0b0;">
+        <div class="container-fluid">
+            <a class="navbar-brand p-0" href="Trangchu.html">
+                <img src="img/logo1.png" alt="" width="150" height="80" class="d-inline-block align-text-top">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+            <div class="collapse navbar-collapse" id="navbarScroll">
+                <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll " style="--bs-scroll-height: 100px; ">
+                    <li class="nav-item me-auto">
+                        <a class="nav-link active " aria-current="page " href="Trangchu.html">Trang chủ</a>
+                    </li>
+                    <li class="nav-item me-auto">
+                        <a class="nav-link active " href="#scrollspyHeading1 ">Giới thiệu</a>
+                    </li>
+                    <li class="nav-item me-auto">
+                        <a class="nav-link active " aria-current="page " href="#scrollspyHeading2 ">Sản phẩm mới</a>
+                    </li>
+                    <li class="nav-item me-auto">
+                        <a class="nav-link active " aria-current="page " href="#scrollspyHeading3 ">Best Saler</a>
+                    </li>
+                    <li class="nav-item me-auto">
+                        <a class="nav-link active " aria-current="page " href="#scrollspyHeading4 ">Đánh giá</a>
+                    </li>
+                    <li class="nav-item me-auto ">
+                        <a class="nav-link active " aria-current="page " href="#scrollspyHeading5 ">Hệ thống</a>
+                    </li>
+                    <li class="nav-item me-auto ">
+                        <a class="nav-link active " aria-current="page " href="brand.html">Thương hiệu</a>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                </form>
+                <a href="#" type="button" class="" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    <i class="bi bi-person-fill fs-3" style="color:white"></i>
+                </a>
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg modal-dialog-centered">
+                        <div class="modal-content">
+                            <div class="modal-body p-0">
+                                <button type="button" class="btn-close position-absolute top-0 end-0" data-bs-dismiss="modal" aria-label="Close"></button>
+                                <div class="container-fluid p-0">
+                                    <div class="row ">
+                                        <div class=" d-flex justify-content-center">
+                                            <div class="col-md-6 pt-5 bg-light ">
+                                                <img src="img/logo.png" alt="logo" class="mx-5 p-0" style="width:50%; height:20%;">
+                                                <form style="margin: 15px;">
+
+                                                    <h6 class="fw-normal text-center mb-3 pb-2">Vui lòng đăng nhập tài khoản của bạn</h6>
+
+                                                    <div class="form-outline mb-3">
+                                                        <input type="email" id="form2Example18" class="form-control form-control-lg form-hong" placeholder="Địa chỉ Email" />
+                                                    </div>
+
+                                                    <div class="form-outline mb-3">
+                                                        <input type="email" id="form2Example18" class="form-control form-control-lg form-hong" placeholder="Mật khẩu" />
+                                                    </div>
+
+                                                    <div class="pt-1 mb-3">
+                                                        <button class="btn btn-outline-hong btn-lg btn-block d-flex mx-auto" style="border-radius: 15px;" type="button">Đăng nhập</button>
+                                                    </div>
+
+                                                    <p class="small mb-5 pb-lg-2"><a class="text-muted" href="#!">Quên mật khẩu?</a></p>
+                                                    <p>Bạn chưa có tài khoản? <a href="sign up.html" class="link-danger">Đăng ký tại đây.</a></p>
+
+                                                </form>
+                                            </div>
+                                            <div class="col-md-6 d-sm-none d-md-block">
+                                                <img src="img/bgform.jpg" class="d-block w-100 img-fluid" style="height: 100%;" alt="image">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <a href="checkout.html" class="credit fs-4 px-3">
+                    <i class="bi bi-credit-card-2-front-fill" style="color: white;"></i>
+                </a>
+
+                <a href="cart.html" class="cart fs-4" style="margin-right: 50px;">
+                    <i class="bi bi-bag-fill" style="color: white;"></i>
+                </a>
+
+            </div>
+        </div>
+        </div>
+    </nav>
+    <div class="container">
+        <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="Trangchu.html">Trang chủ</a></li>
+                <li class="breadcrumb-item"><a href="brand.html">Thương hiệu</a></li>
+                <li class="breadcrumb-item active" aria-current="page">AGE 20'S</li>
+            </ol>
+        </nav>
+        <hr>
+        <h3 class="text-center">AGE 20'S</h3>
+        <hr>
+        <span class="h4">TOTAL 2 ITEM</span>
+        <span class="float-end">
+            <select class="form-select" style="width:100%">
+            <option value="1">
+                <p>SORT BY: Most pupular</p>
+            </option>
+            <option value="2">
+                <p>SORT BY: New</p>
+            </option>
+            <option value="3">
+                <p>SORT BY: Price low to hight</p>
+            </option>
+            <option value="4">
+                <p>SORT BY: Price hight to low</p>
+            </option>
+        </select>
+    </span>
+        <div class="card-group row">
+            <div class="col-md-5">
+                <div class="card border-0">
+                    <a href="AHC Perfect Hya Serum Cushion Promo Set.html"><img src="img/age20.jpg" class="card-img-top" alt="..."></a>
+                    <div class="card-body text-center">
+                        <a href="cart.html">
+                            <i class="bi bi-bag fs-4" style="color:gray ;"></i>
+                        </a>
+                        <span class="border-end px-2">Add to Bag</span>
+                        <a href="sign up.html">
+                            <i class="bi bi-heart fs-4 px-2" style="color: gray;"></i>
+                        </a>
+                        <span class="">Wish List</span>
+                        <h6 class="card-text mt-2">AGE 20's Jericho Rose Essence Cover Pact Fresh Rose 12.5g</h6>
+                        <p class="" style="color:gray;">
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <span>(50)</span>
+                        </p>
+                        <p style="color: #f4b0b0; font-weight: bold;">USD 46.00</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-5">
+                <div class="card border-0">
+                    <a href="AHC Perfect Hya Serum Cushion Promo Set.html"><img src="img/age201.jpg" class="card-img-top" alt="..."></a>
+                    <div class="card-body text-center">
+                        <a href="cart.html">
+                            <i class="bi bi-bag fs-4" style="color:gray ;"></i>
+                        </a>
+                        <span class="border-end px-2">Add to Bag</span>
+                        <a href="sign up.html">
+                            <i class="bi bi-heart fs-4 px-2" style="color: gray;"></i>
+                        </a>
+                        <span class="">Wish List</span>
+                        <h6 class="card-text mt-2">AGE 20's Jericho Rose Glow Liquid Blusher 6.5g</h6>
+                        <p class="" style="color:gray;">
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <span>(50)</span>
+                        </p>
+                        <p style="color: #f4b0b0; font-weight: bold;">USD 44.00</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Đánh giá-->
+    <div class="container-fluid text-center  mb-0 mt-5">
+        <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-offset="0" class="scrollspy-example" tabindex="0">
+            <h1 class="mt-5" id="scrollspyHeading4">Khách hàng và WYB Beauty</h1>
+        </div>
+        <hr class="mx-auto" style="width:20%;">
+        <div class="row ">
+            <div class="col-2 p-0">
+                <img src="img/kh1.jpg" alt="" style="width: 100%; height:70%">
+            </div>
+            <div class="col-2 p-0">
+                <img src="img/kh2.jpg" alt="" style="width: 100%; height:70%">
+            </div>
+            <div class="col-2 p-0">
+                <img src="img/kh3.jpg" alt="" style="width: 100%; height:70%">
+            </div>
+            <div class="col-2 p-0">
+                <img src="img/kh4.jpg" alt="" style="width: 100%; height:70%">
+            </div>
+            <div class="col-2 p-0">
+                <img src="img/kh5.jpg" alt="" style="width: 100%; height:70%">
+            </div>
+            <div class="col-2 p-0">
+                <img src="img/kh6.jpg" alt="" style="width: 100%; height:70%">
+            </div>
+        </div>
+    </div>
+    <!--footer-->
+    <footer class="bg-dark text-center text-lg-start text-white">
+        <div class="container-fluid p-2">
+            <div class="row mt-5">
+                <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+
+                    <div class=" d-flex align-items-center justify-content-center mx-auto">
+                        <img src="img/logo1.png" width="150" height="100" alt="" loading="lazy" />
+                    </div>
+
+                    <p class="text-center">WYB Beauty trang mua sắm trực tuyến của thương hiệu thời trang Lama, thời trang nam, nữ, phụ kiện, giúp bạn tiếp cận xu hướng thời trang mới nhất.</p>
+                    <ul class="list-unstyled d-flex flex-row justify-content-center">
+                        <li>
+                            <a class="text-white px-2 fs-3" href="#!">
+                                <i class="bi bi-facebook"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="text-white px-2 fs-3" href="#!">
+                                <i class="bi bi-instagram fs-3"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="text-white px-2 fs-3" href="#!">
+                                <i class="bi bi-twitter"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="text-white ps-2 fs-3" href="#!">
+                                <i class="bi bi-youtube"></i>
+                            </a>
+                        </li>
+                    </ul>
+
+
+                </div>
+                <div class="col-lg-2 col-md-6 mb-4 mb-md-0">
+                    <h5 class="text-uppercase mb-4">Dịch vụ khách hàng</h5>
+
+                    <ul class="list-unstyled">
+                        <li class="mb-2">
+                            <a href="#!" class="text-white">Tìm kiếm</a>
+                        </li>
+                        <li class="mb-2">
+                            <a href="#!" class="text-white">Chính sách đổi trả</a>
+                        </li>
+                        <li class="mb-2">
+                            <a href="#!" class="text-white">Chính sách bảo mật</a>
+                        </li>
+                        <li class="mb-2">
+                            <a href="#!" class="text-white">Điều khoản dịch vụ</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-md-6 mb-4 mb-md-0">
+                    <h5 class="text-uppercase mb-4">Về chúng tôi</h5>
+
+                    <ul class="list-unstyled">
+                        <li class="mb-2">
+                            <a href="#!" class="text-white">Giới thiệu</a>
+                        </li>
+                        <li class="mb-2">
+                            <a href="#!" class="text-white">Làm đẹp bền vững</a>
+                        </li>
+                        <li class="mb-2">
+                            <a href="#!" class="text-white">Affiliate</a>
+                        </li>
+                        <li class="mb-2">
+                            <a href="#!" class="text-white">Thông cáo tạp chí</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 mb-4 mb-md-0">
+                    <h5 class="text-uppercase mb-4">Liên hệ</h5>
+
+                    <ul class="list-unstyled">
+                        <li>
+                            <p><i class="bi bi-telephone-fill pe-3"></i>0798018602</p>
+                        </li>
+                        <li>
+                            <p><i class="bi bi-envelope-fill pe-2"></i>thanhngan@gmail.com</p>
+                        </li>
+                        <li>
+                            <p><i class="bi bi-shop pe-3"></i>Long Tuyền, Bình Thủy, TP.Cần Thơ</p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 mb-4 mb-md-0">
+                    <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-offset="0" class="scrollspy-example" tabindex="0">
+                        <h5 class="mb-4" id="scrollspyHeading5">
+                            <i class="bi bi-geo-alt-fill pe-2"></i>Hệ thống cửa hàng</h5>
+                    </div>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3928.6896539734607!2d105.72871321411134!3d10.042447875059018!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31a0888917a72b9d%3A0x247bfc26292b89a2!2zTG9uZyBUdXnhu4FuLCBCw6xuaCBUaOG7p3ksIEPhuqduIFRoxqEsIFZp4buHdCBOYW0!5e0!3m2!1svi!2s!4v1655869703870!5m2!1svi!2s"
+                        height="200" style="border:0; width: 100%;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </div>
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+            <p class="text-white">© 2022 - All rights reserved by WYB Beauty CO. LTD. Powered by Thanh Ngân</p>
+        </div>
+    </footer>
+</body>
+
+</html>

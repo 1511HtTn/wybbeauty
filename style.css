@@ -1,0 +1,150 @@
+.form-hong {
+    border: 2px solid #f4b0b0;
+    border-radius: 15px;
+}
+
+.hong {
+    color: #f4b0b0;
+}
+
+.navbar-toggler {
+    color: #f29a91;
+    background-color: #f29a91;
+}
+
+nav ul li a:hover {
+    box-shadow: 0 1px white;
+    color: white;
+}
+
+nav ul li a {
+    position: relative;
+    display: block;
+    font-size: 13px;
+    text-transform: uppercase;
+    font-weight: 500;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.btn-outline-hong {
+    border: 1px solid #f4b0b0;
+    background-color: white;
+    color: #f4b0b0;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.btn-outline-hong:hover {
+    background-color: #f4b0b0;
+    color: white;
+}
+
+.btn-buy {
+    border: 1px solid gainsboro;
+    background-color: white;
+    color: gray;
+    padding: 14px 28px;
+    font-size: 16px;
+    width: 45%;
+}
+
+.btn-card {
+    border: 1px solid #f4b0b0;
+    background-color: #f4b0b0;
+    color: white;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    background-image: linear-gradient(white, white), linear-gradient(#f4b0b0, #f4b0b0);
+    background-size: 0 100%, auto;
+    background-repeat: no-repeat;
+    background-position: center center;
+    transition: all .2s ease-out;
+}
+
+.btn-card:hover {
+    background-color: white;
+    color: black;
+    background-size: 100% 100%, auto;
+}
+
+.card img {
+    opacity: 1;
+    padding: 30px;
+    transform: scale(1);
+    transition: all 0.5s;
+}
+
+.card img:hover {
+    opacity: 0.5;
+    transform: scale(1.1);
+}
+
+.banner {
+    position: relative;
+    text-align: left;
+    color: white;
+}
+
+.banner-caption {
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+}
+
+.btn-banner {
+    border: 1px solid white;
+    background-color: white;
+    color: black;
+    padding: 7px 28px;
+    font-size: 13px;
+    cursor: pointer;
+    transition: all .2s ease-out;
+}
+
+.btn-banner:hover {
+    background-color: transparent;
+    color: white;
+}
+
+.formdk-right {
+    margin-right: -50px;
+}
+
+@media (max-width: 991.98px) {
+    .formdk-right {
+        margin-right: 0;
+    }
+}
+
+body::-webkit-scrollbar {
+    width: 10px;
+}
+
+body::-webkit-scrollbar-track {
+    background-color: #fafafa;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-image: linear-gradient(-45deg, #feebe0, #f29a91);
+    border-radius: 50px;
+}
+
+.nav-pills .nav-item button {
+    padding: 1px;
+}
+
+.nav-pills .nav-item button img {
+    width: 80px;
+}
+
+.tab-content .tab-pane img {
+    width: 400px;
+}

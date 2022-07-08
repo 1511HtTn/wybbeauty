@@ -1,0 +1,699 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trang chủ</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!--banner-->
+    <header>
+        <img src="img/banner.jpg" alt="" style="width:100%; height: 200px;">
+    </header>
+    <!--menu-->
+    <nav class="navbar navbar-expand-lg navbar-light " style="background-color:#f4b0b0;">
+        <div class="container-fluid">
+            <a class="navbar-brand p-0" href="#">
+                <img src="img/logo1.png" alt="" width="150" height="80" class="d-inline-block align-text-top">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+            <div class="collapse navbar-collapse" id="navbarScroll">
+                <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll " style="--bs-scroll-height: 100px; ">
+                    <li class="nav-item me-auto">
+                        <a class="nav-link active " aria-current="page " href="#">Trang chủ</a>
+                    </li>
+                    <li class="nav-item me-auto">
+                        <a class="nav-link active " href="#scrollspyHeading1 ">Giới thiệu</a>
+                    </li>
+                    <li class="nav-item me-auto">
+                        <a class="nav-link active " aria-current="page " href="#scrollspyHeading2 ">Sản phẩm mới</a>
+                    </li>
+                    <li class="nav-item me-auto">
+                        <a class="nav-link active " aria-current="page " href="#scrollspyHeading3 ">Best Saler</a>
+                    </li>
+                    <li class="nav-item me-auto">
+                        <a class="nav-link active " aria-current="page " href="#scrollspyHeading4 ">Đánh giá</a>
+                    </li>
+                    <li class="nav-item me-auto ">
+                        <a class="nav-link active " aria-current="page " href="#scrollspyHeading5 ">Hệ thống</a>
+                    </li>
+                    <li class="nav-item me-auto ">
+                        <a class="nav-link active " aria-current="page " href="brand.html">Thương hiệu</a>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                </form>
+                <a href="#" type="button" class="" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    <i class="bi bi-person-fill fs-3" style="color:white"></i>
+                </a>
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg modal-dialog-centered">
+                        <div class="modal-content">
+                            <div class="modal-body p-0">
+                                <button type="button" class="btn-close position-absolute top-0 end-0" data-bs-dismiss="modal" aria-label="Close"></button>
+                                <div class="container-fluid p-0">
+                                    <div class="row ">
+                                        <div class=" d-flex justify-content-center">
+                                            <div class="col-md-6 pt-5 bg-light ">
+                                                <img src="img/logo.png" alt="logo" class="mx-5 p-0" style="width:50%; height:20%;">
+                                                <form style="margin: 15px;">
+
+                                                    <h6 class="fw-normal text-center mb-3 pb-2">Vui lòng đăng nhập tài khoản của bạn</h6>
+
+                                                    <div class="form-outline mb-3">
+                                                        <input type="email" id="form2Example18" class="form-control form-control-lg form-hong" placeholder="Địa chỉ Email" />
+                                                    </div>
+
+                                                    <div class="form-outline mb-3">
+                                                        <input type="email" id="form2Example18" class="form-control form-control-lg form-hong" placeholder="Mật khẩu" />
+                                                    </div>
+
+                                                    <div class="pt-1 mb-3">
+                                                        <button class="btn btn-outline-hong btn-lg btn-block d-flex mx-auto" style="border-radius: 15px;" type="button">Đăng nhập</button>
+                                                    </div>
+
+                                                    <p class="small mb-5 pb-lg-2"><a class="text-muted" href="#!">Quên mật khẩu?</a></p>
+                                                    <p>Bạn chưa có tài khoản? <a href="sign up.html" class="link-danger">Đăng ký tại đây.</a></p>
+
+                                                </form>
+                                            </div>
+                                            <div class="col-md-6 d-sm-none d-md-block">
+                                                <img src="img/bgform.jpg" class="d-block w-100 img-fluid" style="height: 100%;" alt="image">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <a href="checkout.html" class="credit fs-4 px-3">
+                    <i class="bi bi-credit-card-2-front-fill" style="color: white;"></i>
+                </a>
+
+                <a href="cart.html" class="cart fs-4" style="margin-right: 50px;">
+                    <i class="bi bi-bag-fill" style="color: white;"></i>
+                </a>
+
+            </div>
+        </div>
+        </div>
+    </nav>
+    <!--carousel-->
+    <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="img/carousel3.webp" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h4>Một chút gì đó để tâm hồn thoải mái</h4>
+                    <h1>Khám phá ngay sản phẩm được chiết 100% từ thiên nhiên</h1>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="img/carousel1.webp" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h4>Một chút gì đó để tâm hồn thoải mái</h4>
+                    <h1>Món quà tuyệt nhất dành cho chính bạn</h1>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="img/carousel2.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h4>Một chút gì đó để tâm hồn thoải mái</h4>
+                    <h1>Kem trắng da siêu cấp mới nhất</h1>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+                </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+    </div>
+    <!--Giới thiệu-->
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-6" style="margin-top: 15%;">
+                <p>Chào mừng đến với WYB Beauty</p>
+                <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-offset="0" class="scrollspy-example" tabindex="0">
+                    <h1 id="scrollspyHeading1">Giới Thiệu</h1>
+                </div>
+                <span>Với các sản phẩm của chúng tôi, chúng tôi luôn uy tín đặc lên hàng đầu , bảo đảm sức khoẻ cho khách hàng yên tâm sử dụng.</span>
+                <br>
+                <button class="btn-card my-3">Xem ngay</button>
+            </div>
+            <div class="col-md-6 p-0">
+                <img src="img/product.png" alt="" style="width:100%">
+            </div>
+        </div>
+    </div>
+    <!--Sản phẩm mới-->
+    <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-offset="0" class="scrollspy-example mt-5" tabindex="0">
+        <h1 class="text-center" id="scrollspyHeading2">Sản phẩm mới</h1>
+    </div>
+    <div class="card-group">
+        <div class="card border-0">
+            <a href="AHC Perfect Hya Serum Cushion Promo Set.html">
+                <img src="img/sp1.jpg" class="card-img-top" alt="...">
+            </a>
+            <div class="card-body text-center">
+                <a href="cart.html">
+                    <i class="bi bi-bag fs-4" style="color:gray ;"></i>
+                </a>
+                <span class="border-end px-2">Add to Bag</span>
+                <a href="sign up.html">
+                    <i class="bi bi-heart fs-4 px-2" style="color: gray;"></i>
+                </a>
+                <span class="">Wish List</span>
+                <h6 class="card-text mt-2">CAREZONE Re-Cure Nordenau Cica Essence 145mL</h6>
+                <p class="" style="color:gray;">
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <span>(50)</span>
+                </p>
+                <p style="color: #f4b0b0; font-weight: bold;">USD 26.65</p>
+
+            </div>
+        </div>
+        <div class="card border-0">
+            <a href="AHC Perfect Hya Serum Cushion Promo Set.html"> <img src="img/sp2.jpg" class="card-img-top" alt="..."></a>
+            <div class="card-body text-center">
+                <a href="cart.html">
+                    <i class="bi bi-bag fs-4" style="color:gray ;"></i>
+                </a>
+                <span class="border-end px-2">Add to Bag</span>
+                <a href="sign up.html">
+                    <i class="bi bi-heart fs-4 px-2" style="color: gray;"></i>
+                </a>
+                <span class="">Wish List</span>
+                <h6 class="card-text mt-2">Dr. G Dermoisture Barrier.D Multi Balm 50ml</h6>
+                <p class="" style="color:gray;">
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <span>(50)</span>
+                </p>
+                <p style="color: #f4b0b0; font-weight: bold;">USD 32.00</p>
+            </div>
+        </div>
+        <div class="card border-0">
+            <a href="AHC Perfect Hya Serum Cushion Promo Set.html"><img src="img/sp3.jpg" class="card-img-top" alt="..."></a>
+            <div class="card-body text-center">
+                <a href="cart.html">
+                    <i class="bi bi-bag fs-4" style="color:gray ;"></i>
+                </a>
+                <span class="border-end px-2">Add to Bag</span>
+                <a href="sign up.html">
+                    <i class="bi bi-heart fs-4 px-2" style="color: gray;"></i>
+                </a>
+                <span class="">Wish List</span>
+                <h6 class="card-text mt-2">Isntree Onion Newpair Gel Cream 50mL</h6>
+                <p class="" style="color:gray;">
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <span>(50)</span>
+                </p>
+                <p style="color: #f4b0b0; font-weight: bold;">USD 25.80</p>
+            </div>
+        </div>
+        <div class="card border-0">
+            <a href="AHC Perfect Hya Serum Cushion Promo Set.html"><img src="img/sp4.jpg" class="card-img-top" alt="..."></a>
+            <div class="card-body text-center">
+                <a href="cart.html">
+                    <i class="bi bi-bag fs-4" style="color:gray ;"></i>
+                </a>
+                <span class="border-end px-2">Add to Bag</span>
+                <a href="sign up.html">
+                    <i class="bi bi-heart fs-4 px-2" style="color: gray;"></i>
+                </a>
+                <span class="">Wish List</span>
+                <h6 class="card-text mt-2">3CE Multi Eye Color Palette 9 Colors</h6>
+                <p class="" style="color:gray;">
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <span>(50)</span>
+                </p>
+                <p style="color: #f4b0b0; font-weight: bold;">USD 35.70</p>
+            </div>
+        </div>
+        <div class="card border-0">
+            <a href="AHC Perfect Hya Serum Cushion Promo Set.html"><img src="img/sp5.jpg" class="card-img-top" alt="..."></a>
+            <div class="card-body text-center">
+                <a href="cart.html">
+                    <i class="bi bi-bag fs-4" style="color:gray ;"></i>
+                </a>
+                <span class="border-end px-2">Add to Bag</span>
+                <a href="sign up.html">
+                    <i class="bi bi-heart fs-4 px-2" style="color: gray;"></i>
+                </a>
+                <span class="">Wish List</span>
+                <h6 class="card-text mt-2">CLIO Chiffon Blur Tint 3.1g</h6>
+                <p class="" style="color:gray;">
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <span>(50)</span>
+                </p>
+                <p style="color: #f4b0b0; font-weight: bold;">USD 20.00</p>
+            </div>
+        </div>
+    </div>
+    <div class="card-group">
+        <div class="card border-0">
+            <a href="AHC Perfect Hya Serum Cushion Promo Set.html"><img src="img/sp6.jpg" class="card-img-top" alt="..."></a>
+            <div class="card-body text-center">
+                <a href="cart.html">
+                    <i class="bi bi-bag fs-4" style="color:gray ;"></i>
+                </a>
+                <span class="border-end px-2">Add to Bag</span>
+                <a href="sign up.html">
+                    <i class="bi bi-heart fs-4 px-2" style="color: gray;"></i>
+                </a>
+                <span class="">Wish List</span>
+                <h6 class="card-text mt-2">CLIO PRISM Highlighter Duo 5.6g</h6>
+                <p class="" style="color:gray;">
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <span>(50)</span>
+                </p>
+                <p style="color: #f4b0b0; font-weight: bold;">USD 18.20</p>
+            </div>
+        </div>
+        <div class="card border-0">
+            <a href="AHC Perfect Hya Serum Cushion Promo Set.html"><img src="img/sp7.jpg" class="card-img-top" alt="..."></a>
+            <div class="card-body text-center">
+                <a href="cart.html">
+                    <i class="bi bi-bag fs-4" style="color:gray ;"></i>
+                </a>
+                <span class="border-end px-2">Add to Bag</span>
+                <a href="sign up.html">
+                    <i class="bi bi-heart fs-4 px-2" style="color: gray;"></i>
+                </a>
+                <span class="">Wish List</span>
+                <h6 class="card-text mt-2">AHC Perfect Hya Serum Cushion Promo Set</h6>
+                <p class="" style="color:gray;">
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <span>(50)</span>
+                </p>
+                <p style="color: #f4b0b0; font-weight: bold;">USD 44.00</p>
+            </div>
+        </div>
+        <div class="card border-0">
+            <a href="AHC Perfect Hya Serum Cushion Promo Set.html"><img src="img/sp8.jpg" class="card-img-top" alt="..."></a>
+            <div class="card-body text-center">
+                <a href="cart.html">
+                    <i class="bi bi-bag fs-4" style="color:gray ;"></i>
+                </a>
+                <span class="border-end px-2">Add to Bag</span>
+                <a href="sign up.html">
+                    <i class="bi bi-heart fs-4 px-2" style="color: gray;"></i>
+                </a>
+                <span class="">Wish List</span>
+                <h6 class="card-text mt-2">AHC H Mela Root Cream 50mL Special Offer (+Melasma Cream 10mL)</h6>
+                <p class="" style="color:gray;">
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <span>(50)</span>
+                </p>
+                <p style="color: #f4b0b0; font-weight: bold;">USD 31.20</p>
+            </div>
+        </div>
+        <div class="card border-0">
+            <a href="AHC Perfect Hya Serum Cushion Promo Set.html"><img src="img/sp9.jpg" class="card-img-top" alt="..."></a>
+            <div class="card-body text-center">
+                <a href="cart.html">
+                    <i class="bi bi-bag fs-4" style="color:gray ;"></i>
+                </a>
+                <span class="border-end px-2">Add to Bag</span>
+                <a href="sign up.html">
+                    <i class="bi bi-heart fs-4 px-2" style="color: gray;"></i>
+                </a>
+                <span class="">Wish List</span>
+                <h6 class="card-text mt-2">ETUDE Sebum Soak T-zone Base 12mL</h6>
+                <p class="" style="color:gray;">
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <span>(50)</span>
+                </p>
+                <p style="color: #f4b0b0; font-weight: bold;">USD 13.00</p>
+            </div>
+        </div>
+        <div class="card border-0">
+            <a href="AHC Perfect Hya Serum Cushion Promo Set.html"><img src="img/sp10.jpg" class="card-img-top" alt="..."></a>
+            <div class="card-body text-center">
+                <a href="cart.html">
+                    <i class="bi bi-bag fs-4" style="color:gray ;"></i>
+                </a>
+                <span class="border-end px-2">Add to Bag</span>
+                <a href="sign up.html">
+                    <i class="bi bi-heart fs-4 px-2" style="color: gray;"></i>
+                </a>
+                <span class="">Wish List</span>
+                <h6 class="card-text mt-2">ILLIYOON Oil Smoothing Lotion 350ml</h6>
+                <p class="" style="color:gray;">
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <span>(50)</span>
+                </p>
+                <p style="color: #f4b0b0; font-weight: bold;">USD 27.00</p>
+            </div>
+        </div>
+    </div>
+    </div>
+    <!--banner-->
+    <div class="container-fluid p-0 mt-5">
+        <div class="row">
+            <div class="col-md-4 banner p-0">
+                <img src="img/banner1.webp" alt="" style="width:100%;">
+                <div class="banner-caption">
+                    <span>Khuyến mãi tới 50%<span>
+                                    <h4>Phụ kiện trang điểm</h4>
+                                    <button class="btn-banner my-3">MUA NGAY</button>
+                        </div>
+                    </div>
+                    <div class="col-md-4 banner p-0">
+                        <img src="img/banner2.webp" alt="" style="width:100%;">
+                        <div class="banner-caption">
+                            <span>Phong cách<span>
+                                    <h4>Cùng bạn xuống phố</h4>
+                                    <button class="btn-banner my-3">XEM THÊM</button>
+                        </div>
+                    </div>
+                    <div class="col-md-4 banner p-0">
+                        <img src="img/banner3.jpg" alt="" style="width:100%;">
+                        <div class="banner-caption">
+                            <span>Bộ sưu tập<span>
+                                    <h4>Mùa hè rực rỡ</h4>
+                                    <button class="btn-banner my-3">XEM THÊM</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--Best saler-->
+            <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-offset="0" class="scrollspy-example mt-5" tabindex="0">
+            <h1 class="text-center" id="scrollspyHeading3">Best Saler</h1>
+            </div>
+                <div class="card-group">
+                    <div class="card border-0">
+                        <a href="AHC Perfect Hya Serum Cushion Promo Set.html"><img src="img/sp11.jpg" class="card-img-top" alt="..."></a>
+                        <div class="card-body text-center">
+                            <a href="cart.html">
+                                <i class="bi bi-bag fs-4" style="color:gray ;"></i>
+                            </a>
+                            <span class="border-end px-2">Add to Bag</span>
+                    <a href="sign up.html">
+                        <i class="bi bi-heart fs-4 px-2" style="color: gray;"></i>
+                    </a>
+                    <span class="">Wish List</span>
+                    <h6 class="card-text mt-2">Belif The True Cream Aqua Bomb 125mL (Special Gift: Bottle Pouch)</h6>
+                    <p class="" style="color:gray;">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <span>(50)</span>
+                    </p>
+                    <p style="color: #f4b0b0; font-weight: bold;">USD 67.23</p>
+                </div>
+            </div>
+            <div class="card border-0">
+                <a href="AHC Perfect Hya Serum Cushion Promo Set.html"><img src="img/sp12.jpg" class="card-img-top" alt="..."></a>
+                <div class="card-body text-center">
+                    <a href="cart.html">
+                        <i class="bi bi-bag fs-4" style="color:gray ;"></i>
+                    </a>
+                    <span class="border-end px-2">Add to Bag</span>
+                    <a href="sign up.html">
+                        <i class="bi bi-heart fs-4 px-2" style="color: gray;"></i>
+                    </a>
+                    <span class="">Wish List</span>
+                    <h6 class="card-text mt-2">ROUND LAB 1025 Dokdo Pad 70 Sheets + Toner 50ml</h6>
+                    <p class="" style="color:gray;">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <span>(50)</span>
+                    </p>
+                    <p style="color: #f4b0b0; font-weight: bold;">USD 27.00</p>
+                </div>
+            </div>
+            <div class="card border-0">
+                <a href="AHC Perfect Hya Serum Cushion Promo Set.html"><img src="img/sp13.jpg" class="card-img-top" alt="..."></a>
+                <div class="card-body text-center">
+                    <a href="cart.html">
+                        <i class="bi bi-bag fs-4" style="color:gray ;"></i>
+                    </a>
+                    <span class="border-end px-2">Add to Bag</span>
+                    <a href="sign up.html">
+                        <i class="bi bi-heart fs-4 px-2" style="color: gray;"></i>
+                    </a>
+                    <span class="">Wish List</span>
+                    <h6 class="card-text mt-2">Dear, klairs Midnight Blue Youth Activating Drop 20ml</h6>
+                    <p class="" style="color:gray;">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <span>(50)</span>
+                    </p>
+                    <p style="color: #f4b0b0; font-weight: bold;">USD 33.15</p>
+                </div>
+            </div>
+            <div class="card border-0">
+                <a href="AHC Perfect Hya Serum Cushion Promo Set.html"><img src="img/sp14.jpg" class="card-img-top" alt="..."></a>
+                <div class="card-body text-center">
+                    <a href="cart.html">
+                        <i class="bi bi-bag fs-4" style="color:gray ;"></i>
+                    </a>
+                    <span class="border-end px-2">Add to Bag</span>
+                    <a href="sign up.html">
+                        <i class="bi bi-heart fs-4 px-2" style="color: gray;"></i>
+                    </a>
+                    <span class="">Wish List</span>
+                    <h6 class="card-text mt-2">GIVERNY Milchak Fixing Mascara 7g</h6>
+                    <p class="" style="color:gray;">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <span>(50)</span>
+                    </p>
+                    <p style="color: #f4b0b0; font-weight: bold;">USD 22.40</p>
+                </div>
+            </div>
+            <div class="card border-0">
+                <a href="AHC Perfect Hya Serum Cushion Promo Set.html"><img src="img/sp15.jpg" class="card-img-top" alt="..."></a>
+                <div class="card-body text-center">
+                    <a href="cart.html">
+                        <i class="bi bi-bag fs-4" style="color:gray ;"></i>
+                    </a>
+                    <span class="border-end px-2">Add to Bag</span>
+                    <a href="sign up.html">
+                        <i class="bi bi-heart fs-4 px-2" style="color: gray;"></i>
+                    </a>
+                    <span class="">Wish List</span>
+                    <h6 class="card-text mt-2">MERZY Blur-Fit Tint 5.5g</h6>
+                    <p class="" style="color:gray;">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <span>(50)</span>
+                    </p>
+                    <p style="color: #f4b0b0; font-weight: bold;">USD 6.00</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--form đăng kí email-->
+    <div class="container-fluid text-center mt-5 " style="background-image: url(img/footer.jpg); height: 90%; width: 100%;">
+        <div class="p-5">
+            <h2 style="color: white;">Đăng ký</h2>
+            <p style="color: white;">
+                Đăng ký nhận bản tin của WYB Beauty để cập nhật những sản phẩm mới,<br> nhận thông tin ưu đãi đặc biệt và thông tin giảm giá khác.
+            </p>
+            <form class="d-flex justify-content-center">
+                <input class="form-control rounded-0 p-3" type="search" placeholder="Nhập Email của bạn" aria-label="Search" style="width:30%">
+                <button class="btn-footer rounded-0 px-4" type="submit" style="background-color: black; color:white;">Gửi</button>
+            </form>
+        </div>
+    </div>
+    <!--Đánh giá-->
+    <div class="container-fluid text-center  mb-0">
+        <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-offset="0" class="scrollspy-example" tabindex="0">
+            <h1 class="mt-5" id="scrollspyHeading4">Khách hàng và WYB Beauty</h1>
+        </div>
+        <hr class="mx-auto" style="width:20%;">
+        <div class="row ">
+            <div class="col-2 p-0">
+                <img src="img/kh1.jpg" alt="" style="width: 100%; height:70%">
+            </div>
+            <div class="col-2 p-0">
+                <img src="img/kh2.jpg" alt="" style="width: 100%; height:70%">
+            </div>
+            <div class="col-2 p-0">
+                <img src="img/kh3.jpg" alt="" style="width: 100%; height:70%">
+            </div>
+            <div class="col-2 p-0">
+                <img src="img/kh4.jpg" alt="" style="width: 100%; height:70%">
+            </div>
+            <div class="col-2 p-0">
+                <img src="img/kh5.jpg" alt="" style="width: 100%; height:70%">
+            </div>
+            <div class="col-2 p-0">
+                <img src="img/kh6.jpg" alt="" style="width: 100%; height:70%">
+            </div>
+        </div>
+    </div>
+    <!--footer-->
+    <footer class="bg-dark text-center text-lg-start text-white">
+        <div class="container-fluid p-2">
+            <div class="row mt-5">
+                <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+
+                    <div class=" d-flex align-items-center justify-content-center mx-auto">
+                        <img src="img/logo1.png" width="150" height="100" alt="" loading="lazy" />
+                    </div>
+
+                    <p class="text-center">WYB Beauty trang mua sắm trực tuyến của thương hiệu thời trang Lama, thời trang nam, nữ, phụ kiện, giúp bạn tiếp cận xu hướng thời trang mới nhất.</p>
+                    <ul class="list-unstyled d-flex flex-row justify-content-center">
+                        <li>
+                            <a class="text-white px-2 fs-3" href="#!">
+                                <i class="bi bi-facebook"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="text-white px-2 fs-3" href="#!">
+                                <i class="bi bi-instagram fs-3"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="text-white px-2 fs-3" href="#!">
+                                <i class="bi bi-twitter"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="text-white ps-2 fs-3" href="#!">
+                                <i class="bi bi-youtube"></i>
+                            </a>
+                        </li>
+                    </ul>
+
+
+                </div>
+                <div class="col-lg-2 col-md-6 mb-4 mb-md-0">
+                    <h5 class="text-uppercase mb-4">Dịch vụ khách hàng</h5>
+
+                    <ul class="list-unstyled">
+                        <li class="mb-2">
+                            <a href="#!" class="text-white">Tìm kiếm</a>
+                        </li>
+                        <li class="mb-2">
+                            <a href="#!" class="text-white">Chính sách đổi trả</a>
+                        </li>
+                        <li class="mb-2">
+                            <a href="#!" class="text-white">Chính sách bảo mật</a>
+                        </li>
+                        <li class="mb-2">
+                            <a href="#!" class="text-white">Điều khoản dịch vụ</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-md-6 mb-4 mb-md-0">
+                    <h5 class="text-uppercase mb-4">Về chúng tôi</h5>
+
+                    <ul class="list-unstyled">
+                        <li class="mb-2">
+                            <a href="#!" class="text-white">Giới thiệu</a>
+                        </li>
+                        <li class="mb-2">
+                            <a href="#!" class="text-white">Làm đẹp bền vững</a>
+                        </li>
+                        <li class="mb-2">
+                            <a href="#!" class="text-white">Affiliate</a>
+                        </li>
+                        <li class="mb-2">
+                            <a href="#!" class="text-white">Thông cáo tạp chí</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 mb-4 mb-md-0">
+                    <h5 class="text-uppercase mb-4">Liên hệ</h5>
+
+                    <ul class="list-unstyled">
+                        <li>
+                            <p><i class="bi bi-telephone-fill pe-3"></i>0798018602</p>
+                        </li>
+                        <li>
+                            <p><i class="bi bi-envelope-fill pe-2"></i>thanhngan@gmail.com</p>
+                        </li>
+                        <li>
+                            <p><i class="bi bi-shop pe-3"></i>Long Tuyền, Bình Thủy, TP.Cần Thơ</p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 mb-4 mb-md-0">
+                    <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-offset="0" class="scrollspy-example" tabindex="0">
+                        <h5 class="mb-4" id="scrollspyHeading5">
+                            <i class="bi bi-geo-alt-fill pe-2"></i>Hệ thống cửa hàng</h5>
+                    </div>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3928.6896539734607!2d105.72871321411134!3d10.042447875059018!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31a0888917a72b9d%3A0x247bfc26292b89a2!2zTG9uZyBUdXnhu4FuLCBCw6xuaCBUaOG7p3ksIEPhuqduIFRoxqEsIFZp4buHdCBOYW0!5e0!3m2!1svi!2s!4v1655869703870!5m2!1svi!2s"
+                        height="200" style="border:0; width: 100%;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </div>
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+            <p class="text-white">© 2022 - All rights reserved by WYB Beauty CO. LTD. Powered by Thanh Ngân</p>
+        </div>
+    </footer>
+</body>
+
+</html>
